@@ -26,7 +26,7 @@ url                      : "https://commanderk9826.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "Chae-Hun Lee"
-  avatar           : "/assets/images/avatar.jpeg"
+  avatar           : "/images/avatar.jpeg"
   bio              : "Research Engineer"
   location         : "South Korea"
   email            :
@@ -127,6 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/commanderk9826"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      # url: "https://github.com/commanderk9826"
 
 # Site Footer
 footer:
@@ -137,6 +140,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/commanderk9826"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      # url: "https://github.com/commanderk9826"
 
 # Reading Files
 include:
@@ -301,5 +307,11 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: contents
+      toc_icon: "fa-solid fa-frog"
+      author_profile: false
+      search: true
 
 date_format : "%Y-%m-%d"     
