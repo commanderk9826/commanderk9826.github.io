@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "commanderk9826"
 title_separator          : "|"
 subtitle                 : "Think less, Do more" # site tagline that appears below site title in masthead
-name                     : "Chae-hun Lee"
+name                     : "Chae-Hun Lee"
 description              : "이채훈의 블로그입니다."
 url                      : "https://commanderk9826.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -34,10 +34,9 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
+    shortname            : "commanderk9826"
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
@@ -113,7 +112,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chae-hun Lee"
+  name             : "Chae-Hun Lee"
   avatar           : "/assets/images/avatar.jpeg"
   bio              : "Research Engineer"
   location         : "South Korea"
@@ -321,7 +320,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
